@@ -7,14 +7,6 @@ public class HelloWorld {
 		System.out.println("Ramachandra");
 		
 		System.out.println("Testing");
-		System.out.println("Manual Testing");
-		System.out.println("Automation Testing");
-		
-		System.out.println();
-		
-		System.out.println();
-
-		//format Shortcut = ctrl + shift + F
 	}
 	
 	//Java Practece
