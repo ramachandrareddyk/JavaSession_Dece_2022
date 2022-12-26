@@ -50,6 +50,43 @@ public class Assignments {
 		System.out.println("x = "+x);
 		System.out.println("y = "+y);
 		
+		System.out.println("-----------Even numbers-------------");
+		
+		for(int i=0;i<100;i++) {
+			if(i%2==0) {
+				System.out.println("even number is "+i);
+			}
+		}
+		
+		for(int i=0;i<100;i=i+2) {
+			System.out.println(i);
+		}
+		
+		
+		System.out.println("---------Odd Numbers---------------");
+		for(int i=0;i<100;i++) {
+			if(i%2!=0) {
+				System.out.println("Odd number is "+i);
+			}
+		}
+		
+		for(int i=1;i<100;i=i+2) {
+			System.out.println(i);
+		}
+		
+		System.out.println("-------------Prime Numbers-------------");
+		int counter;
+		for(int i=2;i<100;i++) {
+			counter=0;
+			for(int j=1;j<=i;j++) {
+				if(i%j==0) {
+					counter++;
+				}
+			}
+			if(counter==2) {
+				System.out.println(i);
+			}
+		}
 		
 		
 
