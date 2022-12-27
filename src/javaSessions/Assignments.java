@@ -88,6 +88,32 @@ public class Assignments {
 			}
 		}
 		
+		System.out.println("========Highest and lowest number in array=======");
+		
+		int inr[]= new int [6];
+		inr[0]=100;
+		inr[1]=300;
+		inr[2]=60;
+		inr[3]=450;
+		inr[4]=25;
+		inr[5]=1000;
+		
+		//lowest number is 0
+		//Highest number is 450
+		
+		int smalest=inr[0];
+		int largest=inr[0];
+		
+		for(int i=1;i<inr.length;i++) {
+			if(inr[i]>largest) {
+				largest=inr[i];
+			} else if(inr[i]<smalest) {
+				smalest=inr[i];
+			}
+			
+		}
+		System.out.println("Largest number is ="+largest);
+		System.out.println("Smalest number is ="+smalest);
 		
 
 	}
