@@ -10,6 +10,8 @@ public class MethodsInJava {
 		
 		obj.m1();
 		
+		obj.test();
+		
 	}
 	
 	//Method/Function: inside this method we will write logic
@@ -49,6 +51,11 @@ public class MethodsInJava {
 	}
 	
 	//Assighment
+	
+	//No return no input
+	public void test() {
+		System.out.println("Automation Testing");
+	}
 	
 	
 	

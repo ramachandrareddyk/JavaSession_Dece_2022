@@ -116,6 +116,40 @@ public class Assignments {
 		System.out.println("Smalest number is ="+smalest);
 		
 
+		
+		System.out.println("=============Array Acending Orders=============");
+		
+		int []arr= {6,2,0,5,12,9,10};
+		
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i+1; j < arr.length; j++) {
+				int temp=0;
+				if(arr[i]>arr[j]) {
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+				
+			}
+			System.out.println(arr[i]);
+			
+		}
+		
+		System.out.println("==============Array Decending Orders===============");
+		int []arr1= {6,2,0,5,12,9,10};
+		System.out.println("==============Sum of the array===============");
+		
+		int []arr2= {4,6,2,7,0,1,12,45};
+		
+		int sum=0;
+		for (int i = 0; i < arr2.length; i++) {
+			sum=sum+arr2[i];
+		}
+		System.out.println("Sum of the array is = "+sum);
+		
+		//out put =77
 	}
+	
+
 
 }
